@@ -27,8 +27,8 @@ public class CtakesFunction implements Function<String, String> {
 	transient AnalysisEngineDescription aed = null;
 
 	private void setup() throws UIMAException {
-		System.setProperty("ctakes.umlsuser", "selina");
-		System.setProperty("ctakes.umlspw", "Selina!8");
+		System.setProperty("ctakes.umlsuser", "");
+		System.setProperty("ctakes.umlspw", "");
 		this.jcas = JCasFactory.createJCas();
 		this.aed = CTAKESClinicalPipelineFactory.getDefaultPipeline();
 
