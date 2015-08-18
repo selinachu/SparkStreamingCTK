@@ -37,7 +37,7 @@ public class CtakesSparkMain {
         JavaStreamingContext ssc = new JavaStreamingContext(sc, new Duration(500));
         JavaDStream<String> paragraphs = ssc.receiverStream(new ParagraphReceiver(StorageLevel.MEMORY_AND_DISK_2(), port));
         JavaDStream<String> output = paragraphs.map(new CtakesFunction());
-        // Below is throw away... 
+        // Below is "throw away"... more for proof of concept
         
         output.foreachRDD(new Function<JavaRDD<String>, Void>(){
 			private static final long serialVersionUID = 1L;
