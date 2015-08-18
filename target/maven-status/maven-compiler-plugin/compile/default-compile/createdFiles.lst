@@ -1,5 +1,5 @@
-com/celgene/red/ctakes/spark/ParagraphReceiver.class
-com/celgene/red/ctakes/spark/CtakesSparkMain$1.class
-com/celgene/red/ctakes/spark/CtakesFunction.class
-com/celgene/red/ctakes/spark/ParagraphReceiver$ReadSocketThread.class
-com/celgene/red/ctakes/spark/CtakesSparkMain.class
+org/dia/red/ctakes/spark/CtakesSparkMain$1.class
+org/dia/red/ctakes/spark/CtakesFunction.class
+org/dia/red/ctakes/spark/ParagraphReceiver$ReadSocketThread.class
+org/dia/red/ctakes/spark/ParagraphReceiver.class
+org/dia/red/ctakes/spark/CtakesSparkMain.class
