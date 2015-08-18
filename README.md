@@ -1,4 +1,5 @@
 # SparkStreamingCTK
+A very simple example of using ClinicalPipeline with Spark Streaming
 
 
 To run this example:
@@ -21,5 +22,5 @@ Server side:
 
 
 Client side:
-
+(Example of a simple way of using netcat)
 % nc 127.0.0.1 9321 < sample.txt
