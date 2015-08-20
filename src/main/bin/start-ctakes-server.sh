@@ -6,4 +6,4 @@ then
 fi
 CTAKES_HOME=/usr/local/apache-ctakes-3.2.2/
 CP="${CTAKES_HOME}/desc/:${CTAKES_HOME}/resources/:$( find $(dirname $0)/../lib ${CTAKES_HOME}/lib  -name "*.jar" | tr '\n' ':')"
-${JAVA_HOME}/bin/java -cp ${CP} com.celgene.red.ctakes.spark.CtakesSparkMain ${1}
+${JAVA_HOME}/bin/java -cp ${CP} org.dia.red.ctakes.spark.CtakesSparkMain ${1}
