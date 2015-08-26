@@ -6,13 +6,18 @@ An example of using the
 adding the ability to utilize [Spark Streaming](http://spark.apache.org/streaming/).
 
 ## Prerequisites
-Download and install [Apache cTAKES](http://ctakes.apache.org) v3.2.2 as shown below.
-It is important to install v3.2.2 as this is expected later on.
+ * Download and install [Apache cTAKES](http://ctakes.apache.org) v3.2.2 as shown below. It is important to install v3.2.2 as this is expected later on.
 ```
 $ cd /usr/local
 $ wget "http://archive.apache.org/dist/ctakes/ctakes-3.2.2/apache-ctakes-3.2.2-bin.tar.gz"
 $ tar -zxvf apache-ctakes-3.2.2-bin.tar.gz
 ```
+ * Download and install [ClinicalPipeline](https://github.com/giuseppetotaro/ctakes-clinical-pipeline). WARNING - This installation takes a LONG time. Go and make yourself a cup of tea!
+ ```
+$ cd /usr/local
+$ git clone https://github.com/giuseppetotaro/ctakes-clinical-pipeline.git
+$ mvn install 
+ ```
 
 ## Installation
 Update CtakesFunction.java with [UMLS](http://www.nlm.nih.gov/research/umls/) username and password.

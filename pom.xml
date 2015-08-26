@@ -27,6 +27,7 @@ the License.
     </description>
     <properties>
         <ctakes.version>3.2.2</ctakes.version>
+        <spark.version>1.4.1</spark.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
@@ -148,12 +149,12 @@ the License.
       <dependency>
         <groupId>org.apache.spark</groupId>
         <artifactId>spark-core_2.11</artifactId>
-        <version>1.4.1</version>
+        <version>${spark.version}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.spark</groupId>
         <artifactId>spark-streaming_2.11</artifactId>
-        <version>1.4.1</version>
+        <version>${spark.version}</version>
       </dependency>
       <dependency>
       	<groupId>it.cnr.iac</groupId>
