@@ -13,7 +13,8 @@ $ wget "http://archive.apache.org/dist/ctakes/ctakes-3.2.2/apache-ctakes-3.2.2-b
 $ tar -zxvf apache-ctakes-3.2.2-bin.tar.gz
 ```
  * Download and install [ClinicalPipeline](https://github.com/giuseppetotaro/ctakes-clinical-pipeline). WARNING - This installation takes a LONG time. Go and make yourself a cup of tea!
- ```
+
+```
 $ cd /usr/local
 $ git clone https://github.com/giuseppetotaro/ctakes-clinical-pipeline.git
 $ mvn install 
