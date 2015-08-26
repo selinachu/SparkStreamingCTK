@@ -17,6 +17,7 @@ $ tar -zxvf apache-ctakes-3.2.2-bin.tar.gz
 ```
 $ cd /usr/local
 $ git clone https://github.com/giuseppetotaro/ctakes-clinical-pipeline.git
+$ cd ctakes-clinical-pipeline
 $ mvn install 
  ```
 
