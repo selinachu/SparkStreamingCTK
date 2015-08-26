@@ -99,10 +99,17 @@ the License.
               <configuration>
                 <descriptors>
                   <descriptor>src/main/assembly/assembly.xml</descriptor>
+                  <descriptor>src/main/assembly/hadoop-job.xml</descriptor>
                 </descriptors>
+                <archive>
+                  <manifest>
+                    <mainClass>org.dia.red.ctakes.spark.CtakesSparkMain</mainClass>
+                  </manifest>
+                </archive>
               </configuration>
               <executions>
                 <execution>
+                  <id>make-assembly</id>
                   <phase>package</phase>
                   <goals>
                     <goal>single</goal>
