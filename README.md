@@ -11,6 +11,10 @@ adding the ability to utilize [Spark Streaming](http://spark.apache.org/streamin
 $ cd /usr/local
 $ wget "http://archive.apache.org/dist/ctakes/ctakes-3.2.2/apache-ctakes-3.2.2-bin.tar.gz"
 $ tar -zxvf apache-ctakes-3.2.2-bin.tar.gz
+$ wget https://sourceforge.net/projects/ctakesresources/files/ctakes-resources-3.2.0.zip
+$ unzip ctakes-resources-3.2.0.zip
+$ cp -R resources/* apache-ctakes-3.2.2/resources
+
 ```
  * Download and install [ClinicalPipeline](https://github.com/giuseppetotaro/ctakes-clinical-pipeline). WARNING - This installation takes a LONG time. Go and make yourself a cup of tea!
 
